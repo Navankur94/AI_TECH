@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    ports:
+      - "8002:8000"
+    restart: unless-stopped
+# Ticket state is held in memory (LangGraph MemorySaver) and is lost on restart.
+# For production, swap in a Postgres checkpointer (see README, "Production gaps").

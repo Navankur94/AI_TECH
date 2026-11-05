@@ -1,0 +1,25 @@
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local state
+chroma_data/
+*.db
+*.sqlite3
+data/usage.db
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store

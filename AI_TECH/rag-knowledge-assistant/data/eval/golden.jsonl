@@ -1,0 +1,12 @@
+{"question": "How many days of annual leave do employees get?", "expected_source": "leave_policy.md"}
+{"question": "How many unused leave days can I carry forward?", "expected_source": "leave_policy.md"}
+{"question": "When do I need a medical certificate for sick leave?", "expected_source": "leave_policy.md"}
+{"question": "How long is parental leave for the primary caregiver?", "expected_source": "leave_policy.md"}
+{"question": "What is the hotel reimbursement limit in metro cities?", "expected_source": "expense_policy.md"}
+{"question": "Within how many days must expense claims be submitted?", "expected_source": "expense_policy.md"}
+{"question": "Who approves claims above 25,000 rupees?", "expected_source": "expense_policy.md"}
+{"question": "Is alcohol reimbursable on business trips?", "expected_source": "expense_policy.md"}
+{"question": "How long must a password be and how often is it rotated?", "expected_source": "security_policy.md"}
+{"question": "How quickly must a lost laptop be reported?", "expected_source": "security_policy.md"}
+{"question": "How fast does the security team acknowledge a phishing report?", "expected_source": "security_policy.md"}
+{"question": "Can I export customer data to my personal cloud storage?", "expected_source": "security_policy.md"}

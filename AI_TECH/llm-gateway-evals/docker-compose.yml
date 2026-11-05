@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    environment:
+      DB_PATH: /srv/state/usage.db
+    ports:
+      - "8003:8000"
+    volumes:
+      - gateway_state:/srv/state
+    restart: unless-stopped
+
+volumes:
+  gateway_state:

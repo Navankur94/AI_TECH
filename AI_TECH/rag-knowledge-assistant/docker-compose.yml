@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    env_file: .env
+    environment:
+      CHROMA_DIR: /srv/state/chroma
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/srv/state
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
